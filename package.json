@@ -1,5 +1,5 @@
 {
-  "name": "lighthouse-seo-report",
+  "name": "lighthouse-docx-report",
   "version": "1.0.0",
   "description": "A node package to convert lighthouse reports into Word documents. ",
   "main": "generateReport.js",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/bmacmurray99/lighthouse-docx-report/issues"
   },
-  "homepage": "https://github.com/bmacmurray99/lighthouse-docx-report#readme"
+  "homepage": "https://github.com/bmacmurray99/lighthouse-docx-report#readme",
+  "dependencies": {
+    "docx-templates": "^3.1.1",
+    "yargs": "^15.3.1"
+  }
 }
