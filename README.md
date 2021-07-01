@@ -1,6 +1,7 @@
 # lighthouse-docx-report
-a package to create docx reports based on lighthouse JSON data. Requires an JSON export from either the Lighthouse CLI or DevTools. 
+A package to create docx reports based on lighthouse JSON data. Requires an JSON export from either the Lighthouse CLI or DevTools. 
 This package currently supports CLI usage only
+
 To use this package on the command line, use the following syntax: 
 ```
 lighthouse-docx-report --input=<INPUT FILE> --output=<OUTPUT FILE> --template=<TEMPLATE FILE>
